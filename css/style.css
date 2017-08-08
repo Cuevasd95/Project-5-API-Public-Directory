@@ -1,0 +1,149 @@
+body {
+	background-color: black;
+	font-family: "Times New Roman", times, serif;
+}
+
+h1 {
+	color: darkgray;
+	font-size: 25px;
+	margin-left: 4%;
+	display: inline-block;
+}
+
+.search-bar {
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+input {
+	border-radius: 3px;
+	background-color: lightblue;
+	font-size: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+.profile-row {
+	float: left;
+	width: 30%;
+	border: 3px darkgray solid;
+	background-color: lightblue;
+	border-radius: 5px;
+	margin-bottom: 3%;
+	margin-right: 2%;
+}
+
+.profile-row:hover {
+	background-color: #64C7E5;
+}
+
+.image {
+	float: left;
+	border-radius: 50%;
+	margin-top: 6%;
+	margin-left: 2%;
+	margin-right: 3%;
+	margin-bottom: 6%;
+}
+
+#userName {
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: -15px;
+	margin-top: 13%;
+}
+
+#email {
+	margin-bottom: -18px;
+	color: darkgray;
+}
+
+#city {
+	font-size: 20px;
+	font-weight: bold;
+	color: darkgray;
+}
+
+/* The Modal (background) */
+#modal-profile {
+}
+
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: lightblue;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 3px solid darkgray;
+	border-radius: 10px;
+    width: 30%; /* Could be more or less, depending on screen size */
+	text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-image {
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#user-modal-name {
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: -15px;
+}
+
+#email-modal {
+	font-size: 20px;
+}
+
+#city-modal {
+	padding-bottom: 10px;
+	border-bottom: 1px darkgray dotted;
+}
+
+#user-modal-name,
+#username-modal,
+#email-modal,
+#tlf-modal,
+#direction,
+.modal-image {
+	margin-bottom: -15px;
+}
+
+#email-modal,
+#username-modal,
+#city-modal,
+#tlf-modal,
+#direction,
+#birthday {
+	font-size: 20px;
+}
